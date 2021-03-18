@@ -9,6 +9,7 @@ namespace A_C_Sharp_Console_App
 			double width, height, woodLength, glassArea;
 			string widthString, heightString;
 
+			// I added this to Master
 			string firstName, lastName;
 			Console.WriteLine("Enter your first name: ");
 			firstName = Console.ReadLine();
