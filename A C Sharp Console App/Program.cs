@@ -27,6 +27,7 @@ namespace A_C_Sharp_Console_App
 			woodLength = 2 * (width + height) * 3.25;
 			glassArea = 2 * (width * height);
 
+			Console.WriteLine("Client: " + firstName + " " + lastName);
 			Console.WriteLine("The length of the wood is " + woodLength + " feet");
 			Console.WriteLine("The area of the glass is " + glassArea + " square metres");
 		}
