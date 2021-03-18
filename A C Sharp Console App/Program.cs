@@ -9,6 +9,13 @@ namespace A_C_Sharp_Console_App
 			double width, height, woodLength, glassArea;
 			string widthString, heightString;
 
+			string firstName, lastName;
+			Console.WriteLine("Enter your first name: ");
+			firstName = Console.ReadLine();
+
+			Console.WriteLine("Enter your first name: ");
+			lastName = Console.ReadLine();
+
 			Console.WriteLine("Enter the length of the wood: ");
 			widthString = Console.ReadLine();
 			width = double.Parse(widthString);
